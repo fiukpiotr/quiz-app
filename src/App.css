@@ -1,0 +1,156 @@
+body {
+background-image: url(fruity-pattern.jpg);
+background-size: 70%;
+background-repeat: repeat;
+}
+
+.App {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.Menu, .Quiz, .EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  background-color: hsl(177, 70%, 41%, .7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.Menu, .Quiz, .EndScreen h1, h2, h3 {
+  color: white;
+}
+
+.Menu input, button {
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+}
+
+#q-buttons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+/* BUTTONS */
+.btn {
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: #16a085;
+  border: none;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #193047;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #1abc9c;
+  color: #000;
+}
+
+.btn:after {
+  content: "";
+  background: #1abc9c;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.btn:focus { outline:0; }
+
+/* BUTTON DISABLED */
+button:disabled,
+button:disabled:hover,
+button:disabled:active,
+button:disabled:focus {
+  border: none;
+  overflow: hidden;
+  background-color: grey;
+  cursor: auto;
+  box-shadow: none;
+  color: rgb(189, 189, 189);
+}
+button:disabled:after { 
+  padding: 0;
+  margin: 0;
+}
+
+/* ANSWEAR BUTTONS */
+  .answear-btn {
+    font-size: .8rem;
+    letter-spacing: 2px;
+    background-color: #0e6049;
+  }
+  .answear-btn:hover {
+    box-shadow: 0px 2px 10px 5px rgb(249, 173, 111);
+  }
+  .answear-btn:after {
+    background: #1abc9c;
+  }
+  .answear-btn:focus {
+    background-color: rgb(249, 173, 111);
+  }
+
+/* NAVIGATION BUTTONS */
+  .navi-btn {
+    font-size: .8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #0e6049;
+    width: 100px;
+    margin-top: 50px;
+  }
+  .navi-btn:hover {
+    box-shadow: 0px 2px 10px 5px rgb(249, 173, 111);
+  }
+  .navi-btn:after {
+    background: #1abc9c;
+  }
+
+/* FINISH BUTTON */
+  .fin-button {
+    color: #0e6049;
+    background-color: chartreuse;
+    height: fit-content;
+  }
+
