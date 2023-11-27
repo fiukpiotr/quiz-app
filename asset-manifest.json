@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/quiz-app/static/css/main.6a63f784.chunk.css",
+    "main.css": "/quiz-app/static/css/main.605df8d3.chunk.css",
     "main.js": "/quiz-app/static/js/main.c4a3c569.chunk.js",
     "main.js.map": "/quiz-app/static/js/main.c4a3c569.chunk.js.map",
     "runtime~main.js": "/quiz-app/static/js/runtime~main.994e2a24.js",
@@ -10,9 +10,9 @@
     "static/js/3.940f5f6f.chunk.js": "/quiz-app/static/js/3.940f5f6f.chunk.js",
     "static/js/3.940f5f6f.chunk.js.map": "/quiz-app/static/js/3.940f5f6f.chunk.js.map",
     "index.html": "/quiz-app/index.html",
-    "precache-manifest.ce8902b7b2d4c8101bcb21923fa7ebfe.js": "/quiz-app/precache-manifest.ce8902b7b2d4c8101bcb21923fa7ebfe.js",
+    "precache-manifest.024a9fa036394d21a77179a052f45b97.js": "/quiz-app/precache-manifest.024a9fa036394d21a77179a052f45b97.js",
     "service-worker.js": "/quiz-app/service-worker.js",
-    "static/css/main.6a63f784.chunk.css.map": "/quiz-app/static/css/main.6a63f784.chunk.css.map",
+    "static/css/main.605df8d3.chunk.css.map": "/quiz-app/static/css/main.605df8d3.chunk.css.map",
     "static/media/App.css": "/quiz-app/static/media/fruity-pattern.29760683.jpg"
   }
 }
