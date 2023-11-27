@@ -1,3 +1,4 @@
+import React from "react";
 import "../App.css";
 import { Questions } from "../helpers/Questions.js";
 import { useState } from "react";

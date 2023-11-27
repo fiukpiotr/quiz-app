@@ -1,3 +1,4 @@
+import React from "react";
 import "../App.css";
 import { useContext } from "react";
 import { GameStateContext } from "../helpers/Contexts.js";
@@ -25,7 +26,6 @@ function Menu() {
           }
         }}
       />
-      {}
       <button
         className="btn start-btn"
         onClick={(event) => {

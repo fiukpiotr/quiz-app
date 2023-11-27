@@ -1,3 +1,10 @@
+# PLAY GAME:
+<p align="center">
+  <a href="https://fiukpiotr.github.io/quiz-app/" target="_blank">
+    <img src="/static/img/button.png">
+  </a>
+</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
