@@ -1,7 +1,7 @@
 # PLAY GAME:
 <p align="center">
   <a href="https://fiukpiotr.github.io/quiz-app/" target="_blank">
-    <img src="/static/img/button.png">
+    <img src="/src/button.png">
   </a>
 </p>
 
